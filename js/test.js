@@ -2,12 +2,12 @@
 // function func1(obj) {
 //     return function (num) {
 //         for (let key in obj) {
-//             obj[key]+=num;
+//             obj[key] += num;
 //         }
 //         return obj
 //     }
 // }
-// afterNYears={
+// afterNYears = {
 //     "Baby": 2,
 //     "Child": 8,
 //     "Teenager": 15,

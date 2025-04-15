@@ -1,15 +1,18 @@
-// TASK - 3 Destructuring Objects X
-// let names = []
-// let users = [
-//     { name: "John", email: "john@example.com" },
-//     { name: "Jason", email: "jason@example.com" },
-//     { name: "Jeremy", email: "jeremy@example.com" },
-//     { name: "Jacob", email: "jacob@example.com" }
-// ]
-// for (let key in users) {
-//     names.push(users[key].name)
+// TASK - 4 Ageing the Population...
+// function func1(obj) {
+//     return function (num) {
+//         for (let key in obj) {
+//             obj[key]+=num;
+//         }
+//         return obj
+//     }
 // }
-// console.log(names);
-// 2 - usul
-// const name2 = users.map(users => users.name)
-// console.log(name2);
+// afterNYears={
+//     "Baby": 2,
+//     "Child": 8,
+//     "Teenager": 15,
+//     "Adult": 25,
+//     "Elderly": 71
+// }
+// console.log(func1(afterNYears)(2));
+

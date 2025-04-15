@@ -1,1 +1,2 @@
-console.log(11222);
+console.log("Komol");
+

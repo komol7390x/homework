@@ -122,4 +122,39 @@
 // // console.log(new delete1("Xamidullo",database));
 // // console.log(database);
 //------------------------------------------------------------------------
-// TASK - 6  Repeating Letters
+// TASK - 6 Repeating Letters
+// function double(str = "") {
+//     if (typeof str!=='string') {
+//         return str
+//     }
+//     text=[]
+//     str = str.split("")
+//     len = str.length
+//     for (let i = 0; i < len; i++){
+//         text.push(str[i]);
+//         text.push(str[i]);
+//     }
+//     str = text.join("")
+//     return str
+// }
+// console.log(double("1234!_ "));
+// console.log(double("String"));
+// console.log(double("Hello World!"));
+// console.log(double(12345));
+//------------------------------------------------------------------------
+// TASK - 7 Check If It's a Title String
+// function checkTitle(str='') {
+//     str = str.split(" ")
+//     let len = str.length;
+//     for (let i = 0; i < len; i++){
+//         a = str[i][0].toUpperCase()
+//         if (a !== str[i][0]) {
+//             return false
+//         }
+//     }
+//     return true
+// }
+// console.log(checkTitle("A Mind Boggling Achievement"));
+// console.log(checkTitle("Water is transparent"));
+//------------------------------------------------------------------------
+

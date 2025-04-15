@@ -1,14 +1,12 @@
 // TASK - 7 Check If It's a Title String
-// function checkTitle(str='') {
-//     str = str.split(" ")
-//     let len = str.length;
-//     for (let i = 0; i < len; i++){
-//         a = str[i][0].toUpperCase()
-//         if (a !== str[i][0]) {
-//             return false
+// var firstUniqChar = function (s) {
+//     for (let i = 0; i < s.length; i++) {
+//         if (s.indexOf(s[i]) === s.lastIndexOf(s[i])) {
+//             return i
 //         }
 //     }
-//     return true
-// }
-// console.log(checkTitle("A Mind Boggling Achievement"));
-// console.log(checkTitle("Water is transparent"));
+//     return -1
+// };
+// console.log(firstUniqChar("leetcode"));
+// console.log(firstUniqChar("aabb"));
+

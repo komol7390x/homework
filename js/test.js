@@ -1,12 +1,7 @@
-// TASK - 7 Check If It's a Title String
-// var firstUniqChar = function (s) {
-//     for (let i = 0; i < s.length; i++) {
-//         if (s.indexOf(s[i]) === s.lastIndexOf(s[i])) {
-//             return i
-//         }
-//     }
-//     return -1
+// TASK - 9 Add Strings
+// var addStrings = function (num1, num2) {
+//     res = String(parseFloat(num1) + parseFloat(num2))
+//     return res
 // };
-// console.log(firstUniqChar("leetcode"));
-// console.log(firstUniqChar("aabb"));
+// console.log(addStrings("11", "123"));
 

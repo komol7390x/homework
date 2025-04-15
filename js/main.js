@@ -157,7 +157,7 @@
 // console.log(checkTitle("A Mind Boggling Achievement"));
 // console.log(checkTitle("Water is transparent"));
 //------------------------------------------------------------------------
-// TASK - 7 Check If It's a Title String
+// TASK - 8 First Unique Character in a String
 // var firstUniqChar = function (s) {
 //     for (let i = 0; i < s.length; i++) {
 //         if (s.indexOf(s[i]) === s.lastIndexOf(s[i])) {
@@ -169,4 +169,9 @@
 // console.log(firstUniqChar("leetcode"));
 // console.log(firstUniqChar("aabb"));
 //------------------------------------------------------------------------
-
+// TASK - 9 Add Strings
+// var addStrings = function (num1, num2) {
+//     res = String(parseFloat(num1) + parseFloat(num2))
+//     return res
+// };
+// console.log(addStrings("11", "123"));

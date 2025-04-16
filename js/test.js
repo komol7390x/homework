@@ -1,12 +1,12 @@
-// / TASK -5 Vaqtni Soat va Daqiqaga Ajratish
-// function changeTime(num) {
-//     if (num < 0) {
-//         return `Noto'g'ri ma'lumot: Daqiqa manfiy bo'lmasligi kerak!`
+// / TASK -7 Matndagi Harfni Takrorlash Sonini Hisoblash
+// function countAlpha(str="", alpha) {
+//     str = str.toLowerCase();
+//     let sum = 0;
+//     for (let i = 0; i < str.length; i++){
+//         if (str[i] == alpha) {
+//             sum+=1
+//         }
 //     }
-//     if (isNaN(num)) {
-//         return `Noto'g'ri ma'lumot: Kiritilgan format son bo'lishi kerak!`
-//     }
-//     return `${Math.floor(num/60)} soat ${num%60} daqiqa`
+//     return `Natija: ${sum}`
 // }
-// const num=+prompt("Son kiriting!")
-// console.log(changeTime(num));
+// console.log(countAlpha("Salom Dunyo","o"));

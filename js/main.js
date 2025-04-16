@@ -50,3 +50,17 @@
 //     console.log(`Chegirma: yo'q\n`);
 // }
 // ----------------------------------------------------------------------------
+// / TASK -3 Matndagi Raqamlarni Almashtirish
+// function changeNumber(str) {
+//     let str1=""
+//     for (let i = 0; i < str.length; i++) {
+//         if (!isNaN(parseInt(str[i]))) {
+//             str1+="*"
+//         } else {
+//             str1+=str[i]
+//         }
+//     }
+//     str=str1
+//     return str
+// }
+// console.log(changeNumber("2023-yil"));

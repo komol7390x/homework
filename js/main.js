@@ -1,1 +1,38 @@
-console.log(11222);
+// TASK -1 Parolni Kuchliligi Tekshiruvi
+// function checkPassword(str) {
+//     let len=str.length
+//     if (len < 8) {
+//         return "Kuchsiz Parol\nParol 8 belgidan kam!\n"
+//     }
+//     let xato = "Kuchsiz Parol\n"
+//     let katta = "Katta harf yo'q\n"
+//     let kichik = "Kichik harf yo'q\n"
+//     let son = "Son yo'q\n"
+//     for (let i = 0; i < len; i++){
+//         if (str[i] >= "A" && str[i] <= "Z") {
+//             katta = katta.replace(katta,"")
+//             break
+//         }
+//     }
+//     for (let i = 0; i < len; i++) {
+//         if (str[i] >= "a" && str[i] <= "z") {
+//             kichik = kichik.replace(kichik,"")
+//             break
+//         }
+//     }
+//     for (let i = 0; i < len; i++) {
+//         str[i] = parseInt(str[i])
+//         if (str[i] >= 0 && str[i] <= 9) {
+//             son = son.replace(son,"")
+//             break
+//         }
+//     }
+//     matn = xato + kichik + katta + son;
+//     if ((matn.includes("harf")) || (matn.includes("Son"))) {
+//         return matn;
+//     }
+//     return "Parol kuchli"
+    
+// }
+// console.log(checkPassword("SalDunaaa1"));
+// ----------------------------------------------------------------------------

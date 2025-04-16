@@ -1,12 +1,14 @@
-// / TASK -7 Matndagi Harfni Takrorlash Sonini Hisoblash
-// function countAlpha(str="", alpha) {
-//     str = str.toLowerCase();
-//     let sum = 0;
-//     for (let i = 0; i < str.length; i++){
-//         if (str[i] == alpha) {
-//             sum+=1
-//         }
+// / TASK -7 Pulni Valyutaga Konvertatsiya Qilish
+// function changeConvert(sum) {
+//     if (sum < 0) {
+//         return `Noto'g'ri ma'lumot: Summa manfiy bo'lmasligi kerak!`;
 //     }
-//     return `Natija: ${sum}`
+//     if (isNaN(sum)) {
+//         return `Noto'g'ri ma'lumot: Kiritilgan format son bo'lishi kerak!`;
+//     }
+//     son = (sum / 12_500).toFixed(2)
+//     return `${son} USD`
+    
 // }
-// console.log(countAlpha("Salom Dunyo","o"));
+// const sum = +prompt("So'm kiriting!")
+// console.log(changeConvert(sum));

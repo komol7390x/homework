@@ -1,1 +1,2 @@
-// / TASK -4 Ism va Familiyani Qisqartirish
+// / TASK -5 Vaqtni Soat va Daqiqaga Ajratish
+

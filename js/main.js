@@ -64,3 +64,13 @@
 //     return str
 // }
 // console.log(changeNumber("2023-yil"));
+// ----------------------------------------------------------------------------
+// / TASK -4 Ism va Familiyani Qisqartirish
+// function changeName(lastName, firstName) {
+//     if (lastName.length < 1 || firstName < 1) {
+//         return "Noto'g'ri format: Ism va familiya kiritilishi kerak"
+//     }
+//     return `${lastName[0]}. ${firstName}`
+// }
+// console.log(changeName("Ahmad","Rahimov"));
+// ----------------------------------------------------------------------------

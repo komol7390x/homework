@@ -123,7 +123,7 @@
 // // console.log(database);
 //------------------------------------------------------------------------
 // TASK - 5 CRUD DATABASE Simulation application
-let dataBase = {
+// let dataBase = {
 //     students: [],
 //     read() {
 //         console.log(this.students);

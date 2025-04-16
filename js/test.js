@@ -41,14 +41,22 @@
 //         this.students = this.students.filter((val) => val.name != name);
 //         console.log("User o'chirildi");
 //     },
+//     pagination(limit, skip) {
+//         console.log(this.students.slice(limit,skip));
+//     }
 // }
 
 // dataBase.create({ name: "Xamidullo", age: 33, id: 123, tolov: false })
 // dataBase.create({ name: "Alisher", age: 27, id: 123, tolov: false })
+// dataBase.create({ name: "Dilshod", age: 27, id: 123, tolov: false })
+// dataBase.create({ name: "Farxod", age: 27, id: 123, tolov: false })
+// dataBase.create({ name: "Baxrom", age: 27, id: 123, tolov: false })
+// dataBase.create({ name: "Furqat", age: 27, id: 123, tolov: false })
 // dataBase.read()
 // dataBase.update("Alisher", { age: 27, id: 999, tolov: true })
 // dataBase.read()
 // dataBase.findOne("Alisher1")
 // dataBase.delete("Xamidullo")
 // dataBase.read()
+// dataBase.pagination(0,3)
 

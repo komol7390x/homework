@@ -108,3 +108,12 @@
 // console.log(chatroomStatus(["s234f", "mailbox2"]));
 // console.log(chatroomStatus(["pap_ier44", "townieBOY", "panda321", "motor_bike5", "sandwichmaker833", "violinist91"]));
 
+// -------------------------------------------------------------------------------
+// Task-10 How Much is True?
+// function countTrue(array) {
+//     let res = array.filter((val) => val == true);
+//     let len = res.length;
+//     return `True: ${len} ta`
+// }
+// console.log(countTrue([true, false, false, true, false]));
+// console.log(countTrue([false, false, false, false]));

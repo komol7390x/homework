@@ -1,9 +1,18 @@
-// function func(array) {
-//     let sum=0
-//     for (let i = 0; i < array[1]; i++){
-//         sum+=array[0]
+// function returnVowel(array="") {
+//     let len = array.length;
+//     const unli = "aiuoe"
+//     let text=[]
+//     for (let i = 0; i < len; i++){
+//         array[i]=array[i].toLowerCase()
+//         let soz=""
+//         for (let k = 0; k < array[i].length; k++){
+//             if (unli.includes(array[i][k])) {
+//                 soz+=array[i][k]
+//             }
+//         }
+//         text.push(soz)
 //     }
-//     return sum
+//     return text
 // }
-// console.log(func([3, 4]));
-// console.log(func([2, 4]));
+// console.log(returnVowel(["Assalomu alaykum", "salom", "Najot ta'lim"]));
+// console.log(returnVowel(["Toshkent"]));

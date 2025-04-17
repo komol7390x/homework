@@ -13,8 +13,11 @@
 // console.log(numberSplit(8));
 // -----------------------------------------------
 // Task-2 Sum of Cubes
-
-
+// function sumOfCubes(array) {
+//     let res = array.map((val) => val ** 3).reduce((acum,val)=>acum+val,0)
+//     return `Yig'indi: ${res}`
+// }
+// console.log(sumOfCubes([1, 5, 9]));
 // -----------------------------------------------
 // Task-3 Find the Smallest and Biggest Numbers
 // function minMax(array) {
@@ -24,4 +27,13 @@
 // }
 // console.log(minMax([2334454, 5]));
 // -----------------------------------------------
+// Task-4 Birinchi toq sonni topish
+// function findPrimeNumber(array) {
+//     let res = array.filter((val)=>val%2!=0)
+//     return res[0]
+// }
+// console.log(findPrimeNumber([4, 12, 42, 9, 12, 3]));
+// -----------------------------------------------
+// Task-5 
 
+// -----------------------------------------------

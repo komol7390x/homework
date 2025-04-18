@@ -106,7 +106,7 @@
 // console.log(avergeSalary(employees));
 // ------------------------------------------------------------------------------------
 // Task-6
-// function sortSet(list, num) {
+// function mostSpokenLanguages(list, num) {
 //     let sortedReturn=[]
 //     let res = [...list].sort((a, b) => {
 //         const aValue = Object.values(a)[0]
@@ -131,7 +131,7 @@
 //     { Swahili: 4 },
 //     { Serbian: 4 }
 // ])
-// console.log(sortSet(countries,3));
+// console.log(mostSpokenLanguages(countries,3));
 // ------------------------------------------------------------------------------------
 // Task-7
 

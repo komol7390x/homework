@@ -106,6 +106,33 @@
 // console.log(avergeSalary(employees));
 // ------------------------------------------------------------------------------------
 // Task-6
-
+// function sortSet(list, num) {
+//     let sortedReturn=[]
+//     let res = [...list].sort((a, b) => {
+//         const aValue = Object.values(a)[0]
+//         const bValue = Object.values(b)[0]
+//         return bValue-aValue
+//     })
+//     for (let i = 0; i < num; i++){
+//         sortedReturn.push(res[i])
+//     }
+//     return sortedReturn
+// }
+// let countries = new Set([
+//     { Russian: 9 },
+//     { English: 91 },
+//     { French: 45 },
+//     { Spanish: 24 },
+//     { Portuguese: 9 },
+//     { Dutch: 8 },
+//     { German: 7 },
+//     { Arabic: 25 },
+//     { Chinese: 5 },
+//     { Swahili: 4 },
+//     { Serbian: 4 }
+// ])
+// console.log(sortSet(countries,3));
+// ------------------------------------------------------------------------------------
+// Task-7
 
 // ------------------------------------------------------------------------------------

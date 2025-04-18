@@ -50,8 +50,8 @@
 //         const aver = total / val.scores.length
 //         return {name:val.name,scores:aver}
 //     })
-//     const mmaxAver = Math.max(...res.map((val) => val.scores))
-//     const topStudent = res.filter((val) => val.scores === mmaxAver)
+//     const maxAver = Math.max(...res.map((val) => val.scores))
+//     const topStudent = res.filter((val) => val.scores === maxAver)
 //     return topStudent
 // }
 // const students = new Set([
@@ -62,8 +62,50 @@
 //     { name: "Fatix", scores: [100, 100, 100] }
 // ]);
 // console.log(highScore(students));
-
 // ------------------------------------------------------------------------------------
 // Task-5
+// function avergeSalary(set) {
+//     if (set.size === 0) {
+//         console.log("Xatolik: Xodimlar ro'yxati bo'sh.");
+//         return;
+//     }
+//     let it = [...set].filter((val) => val.department == "IT")
+//     let hr = [...set].filter((val) => val.department == "HR")
+//     let itAver = [...it].reduce((acc, b) => acc + b.salary, 0) / (it.length)
+//     let hrAver = [...hr].reduce((acc, b) => acc + b.salary, 0) / (hr.length)
+//     if (itAver > hrAver) {
+//         return {
+//             department: "IT",
+//             averageSalary: itAver,
+//             employees:it
+//         }
+//     } else if (itAver < hrAver) {
+//         return {
+//             department: "HR",
+//             averageSalary: hrAver,
+//             employees: hr
+//         }
+//     } else {
+//         return {
+//             department: ["IT","HR"],
+//             averageSalary: [itAver,hrAver],
+//             employees: it,hr
+//         }
+//     }
+
+// }
+// const employees = new Set([
+//     { name: "John", salary: 50000, department: "IT" },
+//     { name: "Jane", salary: 60000, department: "HR" },
+//     { name: "Bob", salary: 55000, department: "IT" },
+//     { name: "Sophie", salary: 75000, department: "HR" },
+//     { name: "Mike", salary: 65000, department: "IT" },
+//     { name: "Emily", salary: 80000, department: "HR" },
+//     { name: "David", salary: 70000, department: "IT" },
+// ])
+// console.log(avergeSalary(employees));
+// ------------------------------------------------------------------------------------
+// Task-6
+
 
 // ------------------------------------------------------------------------------------

@@ -1,18 +1,40 @@
-// function highScore(set) {
-//     let res = [...set].map((val) => {
-//         const total = val.scores.reduce((acc, b) => acc + b, 0)
-//         const aver = total / val.scores.length
-//         return {name:val.name,scores:aver}
-//     })
-//     const mmaxAver = Math.max(...res.map((val) => val.scores))
-//     const topStudent = res.filter((val) => val.scores === mmaxAver)
-//     return topStudent
+// function avergeSalary(set) {
+//     if (set.size === 0) {
+//         console.log("Xatolik: Xodimlar ro'yxati bo'sh.");
+//         return;
+//     }
+//     let it = [...set].filter((val) => val.department == "IT")
+//     let hr = [...set].filter((val) => val.department == "HR")
+//     let itAver = [...it].reduce((acc, b) => acc + b.salary, 0) / (it.length)
+//     let hrAver = [...hr].reduce((acc, b) => acc + b.salary, 0) / (hr.length)
+//     if (itAver > hrAver) {
+//         return {
+//             department: "IT",
+//             averageSalary: itAver,
+//             employees:it
+//         }
+//     } else if (itAver < hrAver) {
+//         return {
+//             department: "HR",
+//             averageSalary: hrAver,
+//             employees: hr
+//         }
+//     } else {
+//         return {
+//             department: ["IT","HR"],
+//             averageSalary: [itAver,hrAver],
+//             employees: it,hr
+//         }
+//     }
+    
 // }
-// const students = new Set([
-//     { name: "Alice", scores: [90, 85, 92] },
-//     { name: "Bob", scores: [75, 80, 85] },
-//     { name: "Charlie", scores: [90, 95, 85] },
-//     { name: "Jack", scores: [100, 100, 100] },
-//     { name: "Fatix", scores: [100, 100, 100] }
-// ]);
-// console.log(highScore(students));
+// const employees = new Set([
+//     { name: "John", salary: 50000, department: "IT" },
+//     { name: "Jane", salary: 60000, department: "HR" },
+//     { name: "Bob", salary: 55000, department: "IT" },
+//     { name: "Sophie", salary: 75000, department: "HR" },
+//     { name: "Mike", salary: 65000, department: "IT" },
+//     { name: "Emily", salary: 80000, department: "HR" },
+//     { name: "David", salary: 70000, department: "IT" },
+// ])
+// console.log(avergeSalary(employees));
